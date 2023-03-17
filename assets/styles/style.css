@@ -1,0 +1,659 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 3rem;
+    color: white;
+}
+
+.titulo-h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+.boton-section {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;  
+}
+
+header nav {
+    width: 15w;
+    height: 3vw;
+    
+    
+}
+
+header {
+    background-color: aquamarine;
+    height:12vh;
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    min-height: 10vh;
+    
+    
+
+}
+
+
+header figure img {
+   
+    width: 7rem;
+}
+
+main {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/dumbbells.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.first-section {
+    padding-top: 20px;
+    width: 80vw;
+    margin-bottom: 15px;
+    
+
+
+}
+
+.second-section {
+    display: flex;
+    background-color: rgb(50, 48, 48);
+    width: 80vw;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+}
+
+.first-section-figure {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    
+
+    
+}
+.first-section-img {
+    width: 80vw;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+    
+}
+
+.contact-section-img {
+    width: 80vw;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.contact-p {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(50, 48, 48);
+    color: white;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 0.5rem;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+}
+.second-section-copy {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 40px;
+    color: white;
+
+}
+.second-section-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.boton-wp {
+    display: flex;
+    position: fixed;
+    top: 85vh;
+    left: 92vw;
+ 
+}
+
+.boton-wp-img {
+    width: 3rem;
+    margin-right: 2.5rem;
+}
+footer {
+    background-color: rgb(64, 52, 75);
+    color: white;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 60px;
+    min-height: 10vh;
+
+
+}
+
+.about-div {
+    display: flex;
+    justify-content: flex-center;
+    
+}
+
+.aboutus-img {
+    width: 40vw;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+
+.carta {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 80vw;
+    background: rgb(50, 48, 48);
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+}
+
+.aboutp {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+
+.contact-datos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    margin: 15px;
+    width: 80vw;
+    border-radius: 1rem;
+    
+}
+
+ tr, th, td {
+    border: solid 1px rgb(238, 227, 227);
+    border-collapse: collapse;
+    padding: 5px;
+}
+.schedules-table {
+    background-color: rgb(50, 48, 48);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    padding: 30px;
+    margin: 5px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+}
+
+
+.table-title {
+    font-weight: bold;
+    background-color: black;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+}
+
+.lista-tips {
+    background-color: rgb(50, 48, 48);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 80vw;
+    padding: 20px;
+    margin: 1px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+}
+ 
+
+.lista-o {
+    background-color: rgb(225, 105, 105);
+    margin: 10px;
+    padding: 20x;
+    padding-left: 30px;
+    padding-right: 15px;
+    list-style-type:circle;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+}
+
+.div-titulos {
+    background-color: black;
+    border-radius: 1rem;
+}
+
+
+
+.mapa {
+    background-color: rgb(118, 118, 118);
+    width: 80vw;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+.maps {
+    margin: 1.5rem;
+    
+}
+.titulo-mapa {
+    background-color: rgb(50, 48, 48);
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 1rem;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.caja-section {
+    background-color: rgb(50, 48, 48);
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 2rem;
+    margin:1rem;
+
+}
+.caja1 {
+    width: 45%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+    
+}
+
+.caja2 {
+    background-color: rgb(105, 105, 116);
+    width: 45%;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+
+
+}
+
+.title-h3 {
+    text-align: center;
+    width: 90%;
+    margin-top: 1.5rem;
+    
+}
+
+.img-carta {
+    border-radius: 1.5rem;
+    margin: 1rem; 
+    
+}
+
+.caja-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 112, 112);
+    border-radius: 1.5rem;
+    width: 30vw;
+    height: 95%;
+    box-shadow: 2px 2px 20px 3px rgba(238, 229, 229, 0.2);
+
+   
+}
+
+nav a {
+    transition: background-color .5s;
+    border-radius: .5rem;
+    margin: .1rem;
+    padding: .2rem;
+    background-color: white;
+}
+  
+nav a:hover {
+    background-color: rgb(219, 178, 134);
+  }
+
+
+
+
+form {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.form-country {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.form-payment {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: flex-start;
+    align-self: start;
+}
+
+.form-services {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.form-textarea {
+    width: 90%;
+}
+
+.form-textarea-box {
+    width: 100%;
+
+}
+
+.form-terms {
+    margin: .5rem;
+}
+
+.form-bottom {
+    margin-bottom: 1.5rem;
+}
+
+#active {
+    background-color: rgb(233, 180, 137);
+
+}
+
+#active-about {
+    background-color: rgb(233, 180, 137);
+
+}
+
+#active-contact {
+    background-color: rgb(233, 180, 137);
+
+}
+
+#active-schedules {
+    background-color: rgb(233, 180, 137);
+
+}
+
+#active-tips {
+    background-color: rgb(233, 180, 137);
+
+}
+
+#active-raffle {
+    background-color: rgb(233, 180, 137);
+
+}
+
+
+/* -----------------------------------------Sector MEDIA QUERIES ------------------------------------------------------------------*/
+
+
+
+
+
+/* --------------------------------Adaptar desde DEKSTOP hasta TABLET---------------------------*/
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    
+    .boton-wp{
+        margin-right: 3rem;
+        position: fixed;
+        top: 85vh;
+        left: 88vw;
+    }
+    .boton-wp-img {
+        width: 4rem;
+    }
+
+
+
+    .carta {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+
+    }
+    .second-section {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    header figure img {
+        width: 5.5rem;
+    }
+
+    header nav a{
+        font-size: 0.8rem;
+    }
+
+    .aboutp {
+        font-size: 1.5rem;
+    }
+
+    .aboutus-img {
+        width: 70vw;
+    }
+
+    .contact-datos {
+        font-size: 1.5rem;
+    }
+
+    .schedules-table {
+        font-size: 1rem;
+    }
+
+    .lista-tips {
+        font-size: 1rem;
+    }
+    
+    .caja-section {
+        flex-direction: column-reverse;
+    }
+
+    .caja1 {
+        width: 90%;
+        align-content: center;
+        margin: 1rem;
+    }
+
+    .caja2 {
+        width: 90%;
+        align-content: center;
+        margin: 1rem;
+    }
+
+    .caja-form {
+        width: 90%;
+    }
+}
+
+
+
+/* ---------Adaptar desde TABLET a MOBILE------------- */
+
+
+@media only screen and  (max-width: 424px) {
+
+
+    .boton-wp{
+        margin-right: 2.5rem;
+        position: fixed;
+        top: 85vh;
+        left: 75vw;
+    }
+    .boton-wp-img {
+        width: 3.5rem;
+    }
+
+    header nav a{
+        font-size: 0.6rem;
+    }
+    header figure img {
+   
+        width: 3.5rem;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+       
+       
+    }
+   
+    .second-section {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .second-section-copy {
+        font-size: 1rem;
+    }
+
+    .titulo-h1 {
+        font-size: 2rem;
+    }
+    .titulo-h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer p {
+        font-size: .9rem;
+        
+        
+    }
+
+    .carta {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .aboutp {
+        font-size: 1rem;
+    }
+
+    .aboutus-img {
+        width: 80vw;
+    }
+
+    .contact-datos {
+        font-size: 1rem;
+    }
+
+    .schedules-table {
+        font-size: 0.5rem;
+    }
+    
+    .lista-tips {
+        font-size: 0.8rem;
+    }
+
+    .caja-section {
+        flex-direction: column-reverse;
+
+    }
+
+    .caja1 {
+        width: 90%;
+        align-content: center;
+        margin: 1rem;
+    }
+
+    .caja2 {
+        width: 90%;
+        align-content: center;
+        margin: 1rem;
+    }
+
+    .caja-form {
+        width: 90%;
+    }
+
+    .titulo-mapa {
+        font-size: 1rem;
+    }
+}
+

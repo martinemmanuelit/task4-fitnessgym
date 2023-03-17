@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympus Gym • Raffle </title>
+    <link rel="shortcut icon" href="../assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/styles/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../pags/aboutUs.html">About</a>
+            <a href="../pags/contact.html">Contact</a>
+            <a href="../pags/schedules.html">Schedules</a>
+            <a href="../pags/tips.html">Tips</a>
+            <a href="#" id="active-raffle">Raffle</a>
+        </nav>
+        <figure>
+            <a href="../index.html"><img src="../assets/images/logo.png" alt="logofitnessgym" title="logofitnessgym"></a>
+        </figure>
+        
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="div-titulos">
+                <h1 class="titulo-h1">Raffle</h1>
+                <h2 class="titulo-h2">¡Every month in this section you can participate in a raffle!</h2>
+            </div>
+        </section>
+
+        <section class="caja-section">
+            <figure class="caja1">
+                    <img class="img-carta" src="../assets/images/image-2.jpg" alt="">
+                    <img class="img-carta" src="../assets/images/image-3.jpg" alt="">
+            </figure>
+            <div class="caja2">
+                <form class="caja-form" action="./show_data.html" method="get">
+
+                    <h3 class="title-h3" >PARTICIPATE IN OUR RAFFLE FOR A MONTH OF PERSONALIZED TRAINING.</h3>
+
+                    <label for="name">First Name</label>
+                    <input class="form-textarea" type="text" name="name" id="name">
+            
+                    <label for="surname">Last Name</label>
+                    <input class="form-textarea" type="text" name="surname" id="surname">
+
+                    <label for="e-mail"> Email</label>
+                    <input class="form-textarea" type="email" name="email" id="e-mail">
+                    
+                    <div class="form-country">
+                        <label for="gender">Choose Your Gender: </label>
+                        <select name="gender" id="gender">
+                        <option> Choose one</option>
+                        <option value="Female"> Female </option> 
+                        <option value="Male"> Male </option>
+                        <option value="Other"> Prefer not to say </option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-country">
+                    <label for="country">Country: </label>
+                    <select name="country" id="country">
+                        <option> Choose one</option>
+                        <option value="Arg"> Argentina</option> 
+                        <option value="Col"> Colombia</option>
+                        <option value="CL"> Chile </option>
+                        <option value="Esp"> España </option>
+                        <option value="Bol"> Bolivia </option>
+                        <option value="Uru"> Uruguay </option>
+                    </select>
+                    </div>
+
+                    <div class="form-payment" >
+                        <h4>Payments Options</h4>
+                        <input type="radio" name="payment" id="cash" value="Cash">
+                        <label for="cash">Cash</label>
+                        <input type="radio" name="payment" id="ccard" value="CCard">
+                        <label for="ccard">Credit Cards</label>
+                        <input type="radio" name="payment" id="dcard" value="DCard">
+                        <label for="dcard">Debit Cards</label>
+                    </div>
+
+
+                    <div class="form-services" >
+                        <h4>Services</h4>
+                        <textarea class="form-textarea-box" name="services" id="services" cols="40" rows="10"></textarea>
+                    </div>
+
+                    <div class="form-terms" >
+                        <input type="checkbox" name="terms" id="terms" value="accepted">
+                        <label for="terms">I accept terms and conditions.</label>
+                    </div>
+
+                    <input class="form-bottom" type="submit" value="Send"> 
+                </form>
+            </div>
+        </section>
+
+        <section class="maps" >
+            <h2 class="titulo-mapa">¿Where to find Us?</h2>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6226.571316436165!2d-62.27086787790984!3d-38.711250097468096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbca9065e452f%3A0x64c508a2010ffb3e!2sCasanova%20119%2C%20B8000%20HWC%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1678910363505!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section> 
+        <div class="boton-wp">
+            <a href="https://walink.co/fcd5bd" ><img class="boton-wp-img" src="../assets/images/whatsapp.png" alt="boton de whatsapp"></a>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados ©. Martin Emmanuel Dev ® </p>
+    </footer>
+</body>
+</html>
